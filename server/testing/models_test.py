@@ -1,3 +1,6 @@
+import sys
+print(sys.path)
+
 import pytest
 from sqlalchemy.exc import IntegrityError, CompileError
 from sqlalchemy.orm import sessionmaker
